@@ -1,0 +1,7 @@
+Download all xls files from http://www.bls.gov/oes/tables.htm
+
+Save as csv
+
+(Change name of national_dl.csv to national_2009.csv)
+
+for F in national_*csv; do ~/Scripts/carriage-to-newline.sh $F > t && mv t $F; done
