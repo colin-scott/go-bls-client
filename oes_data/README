@@ -5,3 +5,5 @@ Save as csv
 (Change name of national_dl.csv to national_2009.csv)
 
 for F in national_*csv; do ~/Scripts/carriage-to-newline.sh $F > t && mv t $F; done
+
+get_stats.rb
