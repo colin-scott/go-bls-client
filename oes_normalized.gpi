@@ -34,7 +34,7 @@ set style line 4 lt rgb "#F25900" lw 2 pt 0
 set key bottom right
 set key samplen 2 spacing .9 font ",8"
 
-set ylabel "Number of Employees in the US Normalized Per Industry"
+set ylabel "# Employees in the US Normalized Per Industry"
 set xlabel "Year"
 
 set xdata time
