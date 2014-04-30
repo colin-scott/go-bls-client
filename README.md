@@ -2,7 +2,7 @@ You will need to clone https://github.com/colin-scott/go-bls and run `go install
 
 For NES data, run, `go build`, and `./bls -series <SERIES> > cs.dat`, and `gnuplot nes.gpi`
 
-For OES data, chdir to data/ and see the README there, then run `gnuplot oes.gpi`
+For OES data, see data/README, then run `gnuplot oes.gpi`
 
 BLS series of interest:
 
