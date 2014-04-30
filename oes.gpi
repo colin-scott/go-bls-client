@@ -31,7 +31,7 @@ set style line 2 lt rgb "#A00000" lw 2 pt 0
 set style line 1 lt rgb "#5060D0" lw 2 pt 0
 set style line 4 lt rgb "#F25900" lw 2 pt 0
 
-set key bottom right
+set key top left
 set key samplen 2 spacing .9 font ",8"
 
 set ylabel "Number of Employees in the US"
