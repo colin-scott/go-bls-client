@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"github.com/go-bls"
 	"sort"
+	"time"
 )
 
 func perror(err error) {
@@ -76,10 +77,9 @@ func main() {
 	aggregated := aggregate_all_years(*series_label, *start_year, *end_year)
 
 	for _, series := range (*aggregated).Series {
-		fmt.Printf("SeriesID: %s\n", series.SeriesID)
 		for _, data := range series.Data {
-			fmt.Printf("[%s %s] %s\n", data.Year, data.PeriodName, data.Value)
+			t, _ := time.Parse("January", data.PeriodName)
+			fmt.Printf("%s%02d %s\n", data.Year, t.Month(), data.Value)
 		}
-		fmt.Printf("\n")
 	}
 }
