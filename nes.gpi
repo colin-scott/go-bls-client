@@ -42,8 +42,9 @@ set xdata time
 set timefmt "%Y%m"
 set format x "%Y"
 
-set output "nse.pdf"
+set output "nes.pdf"
 
 # Note that we're leaving out output, title, and plot
 #set output "runtime_graph.pdf"
-plot 'cs.dat' using 1:2 title "Software Industry" w lp ls 1
+plot 'CES5000000001.dat' using 1:2 title "Information Industry (Including Media)" w lp ls 1, \
+     'CES6561130001.dat' using 1:2 title "All College/University Staff" w lp ls 2

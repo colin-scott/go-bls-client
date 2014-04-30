@@ -35,38 +35,4 @@ Education:
 CES65611300 Colleges and universities
 CES65611500 Technical and trade schools
 
-Yearly (finer granularity, but only dates to 1988):
-
-OEUN00000000000000XXXXXX1
-
-Education:
-251021 Computer Science Teachers and Researchers, PostSecondary
-251191 Graduate Teaching Assistants
-151111 Computer and Information Research Scientists (Industry)
-
-Industry:
-113021  Computer and Information Systems Managers
-150000  Computer and Mathematical Occupations
-151100  Computer Occupations
-151120  Computer and Information Analysts
-151121  Computer Systems Analysts
-151122  Information Security Analysts
-151130  Software Developers and Programmers
-151131  Computer Programmers
-151132  Software Developers, Applications
-151133  Software Developers, Systems Software
-151134  Web Developers
-151140  Database and Systems Administrators and Network Architects
-151141  Database Administrators
-151142  Network and Computer Systems Administrators
-151143  Computer Network Architects
-151150  Computer Support Specialists
-151151  Computer User Support Specialists
-151152  Computer Network Support Specialists
-151199  Computer Occupations, All Other
-
-Hardware:
-172061  Computer Hardware Engineers
-172070  Electrical and Electronics Engineers
-172071  Electrical Engineers
-
+Yearly (finer granularity, but only dates to 1988) documented in data/
